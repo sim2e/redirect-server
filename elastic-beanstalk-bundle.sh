@@ -1,3 +1,4 @@
 !#/bin/bash
 
-zip bundle.zip requirements.txt application.py
+mkdir -p build
+zip build/bundle.zip requirements.txt application.py
